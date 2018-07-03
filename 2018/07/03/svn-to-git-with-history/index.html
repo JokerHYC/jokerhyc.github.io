@@ -12,7 +12,7 @@
     
     <title>
         
-            mac&amp;linux命令行代理 | 
+            svn仓库整体迁移至git,保留历史记录 | 
         
         JokerHYC
     </title>
@@ -65,18 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://jokerhyc.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="mac&amp;linux命令行代理 | JokerHYC">
+    <meta property="og:title" content="svn仓库整体迁移至git,保留历史记录 | JokerHYC">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="no description.">
     
 
     
-        <meta property="article:published_time" content="5月 04, 2018" />
-        <meta property="article:modified_time" content="5月 04, 2018" />
+        <meta property="article:published_time" content="7月 03, 2018" />
+        <meta property="article:modified_time" content="7月 03, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="mac&amp;linux命令行代理 | JokerHYC">
+    <meta name="twitter:title" content="svn仓库整体迁移至git,保留历史记录 | JokerHYC">
     <meta name="twitter:description" content="no description.">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -84,7 +84,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://jokerhyc.com/2018/05/04/mac命令行代理/index.html" />
+        <link rel="canonical" href="http://jokerhyc.com/2018/07/03/svn-to-git-with-history/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -110,10 +110,10 @@
         },
         "description": "别紧张,我又不是什么好人."
     },
-    "headline": "mac&linux命令行代理",
-    "url": "http://jokerhyc.com/2018/05/04/mac命令行代理/index.html",
-    "datePublished": "5月 04, 2018",
-    "dateModified": "5月 04, 2018",
+    "headline": "svn仓库整体迁移至git,保留历史记录",
+    "url": "http://jokerhyc.com/2018/07/03/svn-to-git-with-history/index.html",
+    "datePublished": "7月 03, 2018",
+    "dateModified": "7月 03, 2018",
     "description": "no description.",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -361,7 +361,7 @@
         
     
             <p class="article-headline-p">
-                mac&linux命令行代理
+                svn仓库整体迁移至git,保留历史记录
             </p>
         </div>
 
@@ -380,7 +380,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>jokerhyc</strong>
-        <span>5月 04, 2018</span>
+        <span>7月 03, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -420,7 +420,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=mac&amp;linux命令行代理&url=http://jokerhyc.com/2018/05/04/mac命令行代理/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=svn仓库整体迁移至git,保留历史记录&url=http://jokerhyc.com/2018/07/03/svn-to-git-with-history/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -429,7 +429,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=mac&amp;linux命令行代理&url=http://jokerhyc.com/2018/05/04/mac命令行代理/index.html&via=jokerhyc" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=svn仓库整体迁移至git,保留历史记录&url=http://jokerhyc.com/2018/07/03/svn-to-git-with-history/index.html&via=jokerhyc" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -438,7 +438,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://jokerhyc.com/2018/05/04/mac命令行代理/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://jokerhyc.com/2018/07/03/svn-to-git-with-history/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -447,7 +447,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://jokerhyc.com/2018/05/04/mac命令行代理/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://jokerhyc.com/2018/07/03/svn-to-git-with-history/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -471,32 +471,14 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>假设你本地代理已经在127.0.0.1:1080上运行。</p>
-<ul>
-<li><p>安装<a href="http://proxychains.sourceforge.net/" target="_blank" rel="noopener">proxychains</a></p>
-<ul>
-<li><p>Debian/Ubuntu:</p>
-<p><code>apt-get install proxychains</code></p>
-</li>
-<li><p>Mac OS X:</p>
-<p><code>brew install proxychains-ng</code></p>
-</li>
-<li><p>ArchLinux:</p>
-<p><code>sudo pacman install proxychains</code></p>
-</li>
-</ul>
-</li>
-<li>配置文件<br>编辑<code>~/.proxychains/proxychains.conf</code>:</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">strict_chain</span><br><span class="line">proxy_dns </span><br><span class="line">remote_dns_subnet 224</span><br><span class="line">tcp_read_time_out 15000</span><br><span class="line">tcp_connect_time_out 8000</span><br><span class="line">localnet 127.0.0.0/255.0.0.0</span><br><span class="line">quiet_mode</span><br><span class="line"></span><br><span class="line">[ProxyList]</span><br><span class="line">socks5  127.0.0.1 1080</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>通过proxychains运行命令：<br><code>proxychains4 curl https://www.twitter.com/</code></p>
-<p><code>proxychains4 git push origin master</code></p>
-<p>Or</p>
-<p><code>proxychains4 bash</code></p>
-<p><code>curl git push origin master</code></p>
-</li>
-</ul>
+        <p>#svn仓库整体迁移至git,保留历史记录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git svn clone -r 1:HEAD [SVN_REPOSITORY] [LOCAL_DIR]</span><br></pre></td></tr></table></figure>
+<p>使用git svn clone下从1到最新版本的svn仓库<br>如果需要tags trunks等也保留下来 使用如下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git svn clone -r 1:HEAD [SVN_REPOSITORY] -s [LOCAL_DIR]</span><br></pre></td></tr></table></figure>
+<p>clone下来之后 cd到指定目录下 添加远程仓库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin [GIT_REPOSITORY]</span><br></pre></td></tr></table></figure>
+<p>最后推送到远端仓库即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
 
     
 
@@ -516,21 +498,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/05/04/linux下android-studio安装模拟器提示没有空间的问题/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/03/12/绑定个人域名/" id="post_nav-older" class="next-content">
+        <a href="/2018/05/04/mac配置完ssh依然需要输入rsa密码的解决办法/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
